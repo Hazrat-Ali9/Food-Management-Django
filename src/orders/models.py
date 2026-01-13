@@ -1,6 +1,6 @@
 from django.db import models
 from myapp.models import Product
-
+# models py
 class Order(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
