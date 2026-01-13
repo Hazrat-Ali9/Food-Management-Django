@@ -8,7 +8,7 @@ import weasyprint
 from django.conf import settings
 from django.http import HttpResponse
 from django.template.loader import render_to_string
-
+# views py
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
