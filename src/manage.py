@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-
+# manage py
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings.development')
     try:
