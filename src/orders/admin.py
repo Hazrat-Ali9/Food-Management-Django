@@ -3,7 +3,7 @@ from .models import Order, OrderItem
 from django.http import HttpResponse
 from django.urls import reverse
 from django.utils.safestring import mark_safe
-
+# admin py
 class OrderItemInline(admin.TabularInline):
     model = OrderItem
     raw_id_fields = ['product']
