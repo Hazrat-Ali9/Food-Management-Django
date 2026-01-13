@@ -1,7 +1,7 @@
 from decimal import Decimal
 from django.conf import settings
 from myapp.models import Product
-
+# cart py
 class Cart(object):
 
     def __init__(self, request):
